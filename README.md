@@ -56,4 +56,4 @@ TailsUP is a one stop platform for individuals who need their dogs to be taken c
 
 ### Import Details
 
-The project is done on clas room repository [https://github.com/orgs/neu-mis-info6150-fall-2022/teams/outliers] as it forking of project was not enabled
+The project is done on classroom repository [https://github.com/orgs/neu-mis-info6150-fall-2022/teams/outliers] and imported to this account as it forking of project was not enabled
