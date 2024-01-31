@@ -1,0 +1,48 @@
+.user {
+	height: 100%;
+	max-width: 1048px;
+	padding: 2rem;
+	margin: 50px auto;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: $borderRadius;
+	.user-profile {
+		display: flex;
+		.user-image {
+			border-radius: $borderRadius;
+			height: 30%;
+			width: 30%;
+		}
+		.user-detail {
+			padding: 1.8rem 1.5rem;
+			.user-detail-dog-name {
+				text-transform: uppercase;
+				font-weight: bold;
+				color: $primaryColor;
+			}
+			.user-detail-owner-name {
+				font-size: 1.8rem;
+				font-weight: bolder;
+			}
+			.user-detail-owner-email {
+				font-style: italic;
+				font-weight: bold;
+			}
+		}
+	}
+}
+.user-button {
+	padding: 10px 25px;
+	border: 1px solid rgb(193, 193, 193);
+	border-radius: 10px;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 15px;
+	&:hover {
+		color: #fff;
+		background-color: indianred;
+		transition: all 0.4s ease;
+	}
+}

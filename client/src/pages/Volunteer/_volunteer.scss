@@ -1,0 +1,36 @@
+.volunteer {
+	height: 100%;
+	max-width: 1048px;
+	padding: 2rem;
+	margin: 50px auto;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: $borderRadius;
+	.volunteer-profile {
+		display: flex;
+		.volunteer-image {
+			border-radius: $borderRadius;
+			height: 30%;
+			width: 30%;
+		}
+		.volunteer-detail {
+			padding-left: 1.5rem;
+			padding-top: 0.5rem;
+			.volunteer-detail-services {
+				color: $primaryColor;
+				font-size: 14px;
+				padding-left: 20px;
+			}
+			.volunteer-detail-owner-name {
+				font-size: 1.8rem;
+				font-weight: bolder;
+			}
+			.volunteer-detail-owner-email {
+				font-style: italic;
+				font-weight: bold;
+			}
+		}
+	}
+}

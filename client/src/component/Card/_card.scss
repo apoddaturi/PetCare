@@ -1,0 +1,41 @@
+.card {
+	// padding: 2rem;
+	background-color: #fff;
+	border-radius: $borderRadius;
+	.card-profile {
+		.card-image {
+			height: 100%;
+			width: 100%;
+			border-radius: $borderRadius;
+		}
+		.card-details {
+			padding: 1.8rem 1.5rem;
+			.card-detail-name {
+				text-transform: uppercase;
+				font-weight: bold;
+				color: $primaryColor;
+			}
+			.card-detail-owner-name {
+				font-size: 1.2rem;
+				font-weight: bolder;
+				color: black;
+			}
+			.card-detail-services {
+				color: $primaryColor;
+				display: flex;
+				align-items: flex-start;
+				justify-content: space-between;
+				padding-left: 10px;
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+.card-button {
+	border: none;
+	cursor: pointer;
+	background: none;
+	font-weight: normal;
+	text-decoration: none;
+}

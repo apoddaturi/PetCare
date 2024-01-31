@@ -1,0 +1,14 @@
+.btn-container {
+	text-align: center;
+	padding: 1rem calc((100vw - 1000px) / 2);
+	.create-post-btn {
+		font-size: 18px;
+		border: none;
+		background-color: $primaryColor;
+		padding: 10px 15px;
+		color: #fff;
+		transition: 0.3s ease-in-out;
+		cursor: pointer;
+		text-align: center;
+	}
+}

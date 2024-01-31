@@ -1,0 +1,95 @@
+// Event Card scss
+.event-card-container{
+    border-radius: 20px !important;
+    width: 250px !important;
+    min-height: 300px !important;
+}
+
+.event-card {
+	background-color: #fff !important;
+    border-radius: 20px !important;
+    border: 1px solid rgba(0,0,0,0.125) !important;
+}
+
+.event-card-profile {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.image-container {
+    width: 100% !important;
+    height: 180px !important;
+    border-radius: 20px 20px 0px 0px !important;
+}
+.event-card-detail-location{
+  font-size: xx-small !important;
+  color: indianred !important;
+}
+.event-card-detail-date{
+    font-size: small !important;
+    margin: 2px !important;
+}
+.event-card-image{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.details-container {
+    border-top: 1px solid rgba(0,0,0,0.125) !important;
+    width: 100% !important;
+    min-height: 120px !important;
+    padding: 1rem !important;
+    border-radius:0 0 20px 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+.event-card-image {
+	height: 100% !important;
+	width: 100% !important;
+    border-radius: 20px 20px 0px 0px !important;
+}
+
+.event-card-details {
+	padding: unset !important;
+    word-break: break-word !important;
+    max-height:76px !important;
+    cursor: default !important;
+    border:1px solid transparent !important;
+    overflow:auto !important;
+}
+
+.event-card-details::-webkit-scrollbar {
+    display: none !important;  /* Safari and Chrome */
+}
+.event-card-details {
+    -ms-overflow-style: none !important;  /* Internet Explorer 10+ */
+    scrollbar-width: none !important;  /* Firefox */
+}
+.event-card-detail-event-name {
+	text-transform: uppercase !important;
+	font-weight: bold !important;
+	color: rgb(205, 92, 92) !important;
+}
+
+
+.event-card-detail-description, .event-card-detail-location {
+	font-size: 1.2rem !important;
+}
+
+.event-card-actions-container{
+    display: flex !important;
+    border-radius: 20px !important;
+    justify-content: space-between !important;
+}
+
+.event-card-ed{
+    margin:0px !important;
+    padding: 0px !important;
+}
+.event-card-action{
+    cursor: pointer !important;
+    color: #cd5c5c !important;
+    font-weight: bold !important;
+}

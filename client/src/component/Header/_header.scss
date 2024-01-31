@@ -1,0 +1,65 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem calc((100vw - 1000px) / 2);
+	background-color: #fff;
+}
+
+.navbar-heading {
+	font-weight: bolder;
+	font-size: 20px;
+	text-align: center;
+	background-color: #fff;
+}
+.navbar-heading-auth {
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.card-detail-services {
+	color: $primaryColor;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	font-size: 14px;
+	list-style: none;
+}
+
+.navbar-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	li {
+		text-decoration: none;
+		list-style: none;
+		padding: 0 2rem;
+		cursor: pointer;
+		font-size: 18px;
+		.logout-btn {
+			font-size: 18px;
+			border: none;
+			border-radius: 10px;
+			background-color: $primaryColor;
+			padding: 10px 15px;
+			color: #fff;
+			transition: 0.3s ease-in-out;
+			cursor: pointer;
+		}
+		.header-li {
+			text-decoration: none;
+			color: #000;
+			&:hover {
+				color: $primaryColor;
+			}
+		}
+		.active {
+			text-decoration: none;
+			color: $primaryColor;
+		}
+		.header-li-hide {
+			display: none;
+		}
+	}
+}

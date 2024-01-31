@@ -1,0 +1,123 @@
+.form-wrapper {
+	background: $backgroundColor;
+	margin: 3em auto;
+	padding: 0 1em;
+	max-width: 370px;
+	height: 100vh;
+	overflow: hidden;
+}
+
+h1 {
+	text-align: center;
+	padding: 1em 0;
+}
+
+
+form {
+	padding: 0 1.5em;
+}
+
+.form-item {
+	margin-bottom: 0.75em;
+	width: 100%;
+	select{
+		text-align: center;
+		width: 120%;
+		max-width: 31.7ch;
+		padding: 0.25em 0.5em;
+		color: #666;
+		background: #fafaf9;
+		border: none;
+		border-bottom: 2px solid #e9e9e9;
+		font-size: 1em;
+		font-family: "Open Sans", sans-serif;
+		cursor: pointer;
+		line-height: 1.1;
+	}
+	input {
+		background: $backgroundColor;
+		border: none;
+		border-bottom: 2px solid #e9e9e9;
+		color: #666;
+		font-size: 1em;
+		height: 50px;
+		transition: border-color 0.3s;
+		width: 100%;
+		&:focus {
+			border-bottom: 2px solid #c0c0c0;
+			outline: none;
+		}
+	}
+}
+
+.button-panel {
+	margin: 2em 0 0;
+	width: 100%;
+	.button {
+		background: $primaryColor;
+		border: none;
+		color: #fff;
+		cursor: pointer;
+		height: 50px;
+		font-size: 1.2em;
+		letter-spacing: 0.05em;
+		text-align: center;
+		text-transform: uppercase;
+		transition: background 0.3s ease-in-out;
+		width: 100%;
+		&:hover {
+			background: #fff;
+			border: solid 1px;
+			color: $primaryColor;
+		}
+	}
+}
+.form-item-type {
+	p {
+		font-weight: bold;
+	}
+	margin-bottom: 0.75em;
+	font-size: 1em;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: none;
+	border-bottom: 2px solid #e9e9e9;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	.form-item-radio {
+		label {
+			color: #666;
+			margin-left: 5px;
+		}
+	}
+}
+.form-item-checkbox {
+	margin-bottom: 0.75em;
+	font-size: 1em;
+	height: 50px;
+	border: none;
+	border-bottom: 2px solid #e9e9e9;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	height: 80px;
+	color: #666;
+}
+
+.form-footer {
+	font-size: 1em;
+	padding: 2em 0;
+	text-align: center;
+	p {
+		color: #8c8c8c;
+		span {
+			color: black;
+			font-weight: bold;
+			transition: border-color 0.3s;
+			&:hover {
+				border-bottom: 1px dotted black;
+			}
+		}
+	}
+}

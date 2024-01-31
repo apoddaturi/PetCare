@@ -1,0 +1,50 @@
+// styling for posts
+.post {
+	height: 100%;
+	max-width: 1048px;
+	padding: 2rem;
+	margin: 50px auto;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: $borderRadius;
+	.post-profile {
+		display: flex;
+		.post-image {
+			border-radius: $borderRadius;
+			height: 30%;
+			width: 30%;
+		}
+		.post-details {
+			padding: 1.8rem 1.5rem;
+			display: flex;
+			width: 70%;
+			justify-content: space-evenly;
+			align-items: flex-start;
+			div {
+				span {
+					color: $primaryColor;
+				}
+				p {
+					font-weight: bold;
+				}
+				.email-button {
+					margin-top: 10px;
+					padding: 5px 25px;
+					border: 1px solid rgb(193, 193, 193);
+					border-radius: 10px;
+					background-color: $primaryColor;
+					cursor: pointer;
+					font-size: 15px;
+					color: #fff;
+					&:hover {
+						color: #000;
+						background-color: transparent;
+						transition: all 0.4s ease;
+					}
+				}
+			}
+		}
+	}
+}

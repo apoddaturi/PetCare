@@ -1,0 +1,27 @@
+{
+  "name": "tailsup",
+  "version": "1.0.0",
+  "description": "tails up server ",
+  "main": "server.js",
+  "author": "priyanka,suraj,anutej,lissa",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2022/final-project-outliers.git"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2022/final-project-outliers/blob/main/README.md",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.3",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}

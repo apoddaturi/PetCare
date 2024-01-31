@@ -1,0 +1,43 @@
+// styling for post card
+.card {
+	// padding: 2rem;
+	background-color: #fff;
+	border-radius: $borderRadius;
+	.card-profile {
+		.card-image {
+			height: 100%;
+			width: 100%;
+			border-radius: $borderRadius;
+		}
+		.card-details {
+			padding: 1.5rem;
+			.card-detail-date {
+				text-transform: uppercase;
+				font-weight: bold;
+				color: $primaryColor;
+			}
+
+			.card-detail-service-name {
+				.card-button {
+					font-size: 1.2rem;
+					font-weight: bolder;
+					border: none;
+					cursor: pointer;
+					background: none;
+					color: black;
+				}
+			}
+
+			.delete-btn {
+				margin-top: 1rem;
+				font-size: 18px;
+				border: none;
+				background-color: $primaryColor;
+				padding: 10px 15px;
+				color: #fff;
+				transition: 0.3s ease-in-out;
+				cursor: pointer;
+			}
+		}
+	}
+}
